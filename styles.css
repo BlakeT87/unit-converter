@@ -1,0 +1,29 @@
+*{
+    border: 1px dotted blue;
+
+}
+body{
+    background-color: #111827;
+}
+
+#hero{
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-text{
+    color: #ffffff;
+}
+
+.conversion-container{
+    background-color: #273549;
+}
+
+.conversion-container h2, .conversion-container p {
+    color: #CCC1FF;
+}
+
+
+
