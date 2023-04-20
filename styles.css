@@ -1,28 +1,94 @@
 *{
-    border: 1px dotted blue;
+    /*border: 1px dotted blue;*/
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 body{
     background-color: #111827;
 }
 
+#input-el{
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: #6943FF;
+    border:2px solid #B295FF;
+    border-radius: 6px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100px;
+    margin: 20px;
+    color: #ffffff;
+
+}
+
+@media screen and (min-width: 600px){
+    
+
+
+#container{
+    text-align: center;
+    margin: 10px 20vw;
+    background-color: #1F2937;
+}
+}
+
+#container{
+    text-align: center;
+    background-color: #1F2937;
+}
+
+
 #hero{
     background-color: #6943FF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
-#hero-text{
+#main{
+    padding: 5px 0;
+}
+
+#hero-text, p{
     color: #ffffff;
 }
 
-.conversion-container{
-    background-color: #273549;
+#convert-btn{
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 8px;
 }
 
-.conversion-container h2, .conversion-container p {
+#convert-btn:hover{
+    background-color: #CCC1FF;
+}
+
+#convert-btn:active{
+    border: 2px inset black;
+    background-color: #CCC1FF;
+    padding: 8px 18px;
+}
+
+.conversion-container h4{
     color: #CCC1FF;
+}
+
+.conversion-container{
+    background-color:  #273549;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.unit{
+    padding: 10px;
+}
+
+p{
+ margin: 5px;
+ font-size: 14px;
 }
 
 
