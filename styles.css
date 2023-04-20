@@ -60,6 +60,7 @@ body{
     padding: 10px 20px;
     border-style: none;
     border-radius: 8px;
+    background-color: #ffffff;
 }
 
 #convert-btn:hover{
