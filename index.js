@@ -11,7 +11,7 @@ const massEl = document.getElementById("mass-el")
 let inputEl = document.getElementById("input-el")
 const convertBtn = document.getElementById("convert-btn")
 
-console.log(lengthElInch)
+//console.log(lengthElInch)
 
 let length = ""
 let volume = ""
