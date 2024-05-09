@@ -18,6 +18,7 @@ body{
     padding: 10px 20px;
     text-align: center;
     min-width: 100px;
+    max-width: fit-content;
     margin: 20px;
     color: #ffffff;
 
